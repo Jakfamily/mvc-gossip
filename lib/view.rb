@@ -8,8 +8,8 @@ class View
     puts "\n"
     return params = {content:"#{content}",author:"#{author}"}
   end
-  def index_gossips(all)
-    
+  
+  def index_gossips(all) 
   puts all.inspect
   end
 end
